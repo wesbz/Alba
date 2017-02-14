@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import os
 
-if (os.getcwd() != 'C:\\Users\\Wassim\\Google Drive\\TIPE'):
-    os.chdir("Google Drive/TIPE/")
+if (os.getcwd() != '___WHERE YOU ARE SUPPOSED TO WORK WITH ALBA___'):
+    os.chdir("___WHERE YOU WANT TO GO___")
 
 
 notes1 = np.array([[32.70,65.41,130.81,261.63,523.25,1046.50,2093.00,4186.01],
@@ -30,7 +30,7 @@ for i in range(notes1.shape[0]):
     for k in range(notes1.shape[1]):
         notes2[round(notes1[i,k]),:]=np.array([i+1,k+1,notes1[i,k]])
 
-fichier = "WAV/Flute/Super Mario.wav"
+fichier = #THE FILE YOU WANT TO ANALYZE
 
 def spectre():
     Gson = read(fichier)[1]
